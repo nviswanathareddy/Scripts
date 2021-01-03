@@ -1,0 +1,14 @@
+total 48
+-rw-rw-r-- 1 student student  19 Jan  1 06:29 abc
+-rwxrwxr-x 1 student student  73 Jan  1 05:26 diskfree.sh
+-rwxrwxr-x 1 student student 170 Jan  1 06:08 file.sh
+-rwxrwxr-x 1 student student 180 Jan  1 06:06 folder.sh
+-rwxrwxr-x 1 student student  69 Jan  1 05:14 HelloWorld.sh
+-rwxrwxr-x 1 student student 158 Jan  1 05:49 if.sh
+-rwxrwxr-x 1 student student 229 Jan  1 05:58 ifuserinput.sh
+-rw-rw-r-- 1 student student   0 Jan  1 06:30 listfile.txt
+-rw-rw-r-- 1 student student  36 Jan  1 06:00 math.sh
+-rwxrwxr-x 1 student student 331 Jan  1 06:26 UpdatePackage.sh
+-rwxrwxr-x 1 student student  90 Jan  1 05:30 update.sh
+-rwxrwxr-x 1 student student 123 Jan  1 05:53 userinput.sh
+-rwxrwxr-x 1 student student 145 Jan  1 05:18 variables.sh

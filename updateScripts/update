@@ -1,0 +1,18 @@
+#!/bin/bash
+
+##  adding script to update packages
+
+echo
+echo ">>> update Started."
+sudo apt-get update && sudo apt-get upgrade -yy
+echo  ">>> update Complete."
+
+echo
+echo ">>> removing unwanted pachages"
+sudo apt-get autoremove
+echo ">>> removed packages"
+
+echo
+echo ">>> cleaning the Cache."
+sudo apt-get clean
+echo ">>> Cache cleared."

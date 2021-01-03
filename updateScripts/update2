@@ -1,0 +1,22 @@
+
+#!/bin/bash
+
+## update script
+echo ">>> update Started at: " > $HOME/.update.log
+date >> $HOME/.update.log
+
+
+## checking for updates
+echo ">>> checking for updates..." | tee -a $HOME/.update.log
+sudo apt-get update 2>> $HOME/.update.log >> /$HOME/.update.log
+
+## installing updates
+echo ">>> installing updates..." | tee -a $HOME/.update.log
+sudo apt-get upgrade -yy 2>> $HOME/.update.log >> $HOME/.update.log
+
+## clearing cache and removing unwanted packages
+echo ">>> clearing Cache & removing un-necessary packages..." | tee -a $HOME/.update.log
+sudo apt-get clean 2>> $HOME/.update.log >> $HOME/.update.log
+
+echo ">>> Complete! (use below command to view update log')" | tee -a $HOME/.update.log
+echo "cat $HOME/.update.log"
